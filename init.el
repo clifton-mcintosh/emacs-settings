@@ -130,4 +130,6 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+;; Personal customizations
 (load "user.el")
