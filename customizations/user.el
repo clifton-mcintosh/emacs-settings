@@ -19,6 +19,8 @@
 (put-clojure-indent 'after 1)
 (put-clojure-indent 'with 1)
 
+(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+
 ; ac-cider
 ;; (require 'ac-cider)
 ;; (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
